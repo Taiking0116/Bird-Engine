@@ -10,7 +10,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
 #Notifyの定義
-TOKEN = 'K4xJ3pnAMlsS8miF1qSM3jnKG3sCs453OEzakNn4llR'
+TOKEN = 'アクセストークン'
 api_url = 'https://notify-api.line.me/api/notify'
 send_contents = '時間割が更新されました。スプレッドシート：https://docs.google.com/spreadsheets/d/128mFFj6w1drdDzxsKsoc9Xdba2FEWSffcM2iUSrnZ0c/edit?usp=sharing。'
 TOKEN_dic = {'Authorization': 'Bearer' + ' ' + TOKEN} 
